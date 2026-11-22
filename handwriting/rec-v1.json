@@ -1,0 +1,30 @@
+{
+ "name": "rec-v1",
+ "chars": " !\"#%&'()*+,-./0123456789:;=?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz°",
+ "height": 32,
+ "downsample": 4,
+ "input": "image",
+ "output": "probs",
+ "bytes": 1601474,
+ "format": "fp16-storage",
+ "step": 14000,
+ "scores": {
+  "rx": {
+   "em": 0.8967,
+   "cer": 0.0188
+  },
+  "words": {
+   "em": 0.642,
+   "cer": 0.0577
+  },
+  "numbers": {
+   "em": 0.81,
+   "cer": 0.0355
+  },
+  "mnist_test": {
+   "em": 0.942,
+   "cer": 0.0137
+  }
+ },
+ "created": "2026-11-23"
+}
